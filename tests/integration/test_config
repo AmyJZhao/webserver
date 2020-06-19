@@ -1,0 +1,17 @@
+listen 8000;
+
+# Echo Handlers
+location "/" EchoHandler {
+}
+
+location "/echo" EchoHandler {
+}
+
+# Static Handlers
+location "/static1" StaticHandler {
+  root "/tests/integration/files";
+}
+
+location "/static2" StaticHandler {
+  root "/static_files2";
+}

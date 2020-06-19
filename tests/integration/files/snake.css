@@ -1,0 +1,42 @@
+/*
+   snake.css
+   ~~~~~~~~~
+
+   Modified from: https://codepen.io/cluk3/pen/OMqaBY
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  color: #347474;
+  font-family: "Bradley Hand";
+  background: #8ccbbe;
+  text-align: center;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+p {
+  font-size: 28px;
+}
+
+#msg {
+    margin-top: 20px;
+}
+
+#game_canvas {
+  background: #eef9bf;
+  display: block;
+  margin: 20px auto;
+  margin-top: 20px;
+  border: 5px solid #347474;
+}
+
+a {
+  color: #5a7c9f;
+  font-size: 24px;
+  font-style: italic;
+  text-decoration: none;
+}

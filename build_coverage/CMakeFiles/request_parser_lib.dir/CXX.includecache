@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/request_parser.h
+tuple
+-
+string
+-
+vector
+-
+
+/usr/src/projects/aaa-p2/src/request_parser.cc
+request_parser.h
+/usr/src/projects/aaa-p2/src/request_parser.h
+

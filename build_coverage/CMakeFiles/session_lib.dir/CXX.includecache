@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/request_handler.h
+string
+-
+request_parser.h
+../include/request_parser.h
+
+../include/request_parser.h
+tuple
+-
+string
+-
+vector
+-
+
+../include/session.h
+boost/asio.hpp
+-
+request_handler.h
+../include/request_handler.h
+
+/usr/src/projects/aaa-p2/src/session.cc
+boost/bind.hpp
+-
+boost/asio.hpp
+-
+string
+-
+session.h
+/usr/src/projects/aaa-p2/src/session.h
+request_handler.h
+/usr/src/projects/aaa-p2/src/request_handler.h
+

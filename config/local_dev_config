@@ -1,0 +1,37 @@
+listen 8000;
+
+# Echo Handlers
+
+location /echo EchoHandler {
+}
+
+# Static Handlers
+location /static StaticHandler {
+  root /tests/integration/files;
+}
+
+location /status StatusHandler {
+
+}
+
+location /proxy ProxyHandler {
+  host "www.ucla.edu";
+  port 80;
+}
+
+location "/gnu" ProxyHandler {
+  host "www.gnu.org";
+  port 80;
+}
+
+location "/health" HealthHandler {
+  
+}
+
+location "/leaderboard" LeaderboardHandler {
+
+}
+
+location "/snake" SnakeHandler {
+  root "/tests/integration/files";
+}

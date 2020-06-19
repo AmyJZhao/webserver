@@ -1,0 +1,8 @@
+server {
+    listen 8080;
+    root /data/up1;
+
+    location / {
+        root /data/www;
+    }
+}

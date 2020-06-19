@@ -1,0 +1,11 @@
+listen 8020;
+
+# Static Handler
+location "/static" StaticHandler {
+  root "/tests/integration/files";
+}
+
+# Snake Handler
+location "/snake" SnakeHandler {
+  root "/tests/integration/files";
+}

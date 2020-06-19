@@ -1,0 +1,7 @@
+add_test( ConfigPortNumberTest.PortConfig /usr/src/projects/aaa-p2/build_coverage/bin/config_port_number_test [==[--gtest_filter=ConfigPortNumberTest.PortConfig]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ConfigPortNumberTest.PortConfig PROPERTIES WORKING_DIRECTORY /usr/src/projects/aaa-p2/tests/unit/config_port_number_cases)
+add_test( ConfigPortNumberTest.PortConfig2 /usr/src/projects/aaa-p2/build_coverage/bin/config_port_number_test [==[--gtest_filter=ConfigPortNumberTest.PortConfig2]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ConfigPortNumberTest.PortConfig2 PROPERTIES WORKING_DIRECTORY /usr/src/projects/aaa-p2/tests/unit/config_port_number_cases)
+add_test( ConfigPortNumberTest.PortConfig3 /usr/src/projects/aaa-p2/build_coverage/bin/config_port_number_test [==[--gtest_filter=ConfigPortNumberTest.PortConfig3]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ConfigPortNumberTest.PortConfig3 PROPERTIES WORKING_DIRECTORY /usr/src/projects/aaa-p2/tests/unit/config_port_number_cases)
+set( config_port_number_test_TESTS ConfigPortNumberTest.PortConfig ConfigPortNumberTest.PortConfig2 ConfigPortNumberTest.PortConfig3)

@@ -1,0 +1,5 @@
+add_test( RequestHandlerTest.Simple_Bad_Request /usr/src/projects/aaa-p2/build_coverage/bin/request_handler_test [==[--gtest_filter=RequestHandlerTest.Simple_Bad_Request]==] --gtest_also_run_disabled_tests)
+set_tests_properties( RequestHandlerTest.Simple_Bad_Request PROPERTIES WORKING_DIRECTORY /usr/src/projects/aaa-p2/tests)
+add_test( RequestHandlerTest.Simple_Good_Request /usr/src/projects/aaa-p2/build_coverage/bin/request_handler_test [==[--gtest_filter=RequestHandlerTest.Simple_Good_Request]==] --gtest_also_run_disabled_tests)
+set_tests_properties( RequestHandlerTest.Simple_Good_Request PROPERTIES WORKING_DIRECTORY /usr/src/projects/aaa-p2/tests)
+set( request_handler_test_TESTS RequestHandlerTest.Simple_Bad_Request RequestHandlerTest.Simple_Good_Request)

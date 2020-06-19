@@ -1,0 +1,5 @@
+add_test( ServerTest.ConstructorTest /usr/src/projects/aaa-p2/build_coverage/bin/server_test [==[--gtest_filter=ServerTest.ConstructorTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ServerTest.ConstructorTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/aaa-p2/tests)
+add_test( ServerTest.HandleAccept /usr/src/projects/aaa-p2/build_coverage/bin/server_test [==[--gtest_filter=ServerTest.HandleAccept]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ServerTest.HandleAccept PROPERTIES WORKING_DIRECTORY /usr/src/projects/aaa-p2/tests)
+set( server_test_TESTS ServerTest.ConstructorTest ServerTest.HandleAccept)

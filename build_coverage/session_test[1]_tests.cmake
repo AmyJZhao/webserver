@@ -1,0 +1,7 @@
+add_test( SessionTest.ConstructorTest /usr/src/projects/aaa-p2/build_coverage/bin/session_test [==[--gtest_filter=SessionTest.ConstructorTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( SessionTest.ConstructorTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/aaa-p2/tests)
+add_test( SessionTest.GoodRequestTest /usr/src/projects/aaa-p2/build_coverage/bin/session_test [==[--gtest_filter=SessionTest.GoodRequestTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( SessionTest.GoodRequestTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/aaa-p2/tests)
+add_test( SessionTest.ReadBadRequestTest /usr/src/projects/aaa-p2/build_coverage/bin/session_test [==[--gtest_filter=SessionTest.ReadBadRequestTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( SessionTest.ReadBadRequestTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/aaa-p2/tests)
+set( session_test_TESTS SessionTest.ConstructorTest SessionTest.GoodRequestTest SessionTest.ReadBadRequestTest)

@@ -1,0 +1,5 @@
+if(EXISTS "/usr/src/projects/aaa-p2/build_coverage/request_handler_test[1]_tests.cmake")
+  include("/usr/src/projects/aaa-p2/build_coverage/request_handler_test[1]_tests.cmake")
+else()
+  add_test(request_handler_test_NOT_BUILT request_handler_test_NOT_BUILT)
+endif()

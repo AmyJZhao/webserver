@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   -g --coverage CMakeFiles/session_test.dir/tests/unit/session_test.cc.o  -o bin/session_test /usr/lib/x86_64-linux-gnu/libboost_system.a libsession_lib.a librequest_handler_lib.a googletest/googlemock/gtest/libgtest_main.a librequest_parser_lib.a googletest/googlemock/gtest/libgtest.a -lpthread 

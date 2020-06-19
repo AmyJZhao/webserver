@@ -1,0 +1,9 @@
+[2020-06-12 17:31:14.230240]:[0x00007f01edf99740]:[DEBUG][main in Server_Main] Logger created.
+[2020-06-12 17:31:14.235341]:[0x00007f01edf99740]:[DEBUG][main in Server Main] Server has parsed the handlers.
+[2020-06-12 17:31:14.236202]:[0x00007f01edf99740]:[DEBUG][main in Server Main] Server has been successfully initialized.
+[2020-06-12 17:31:14.236697]:[0x00007f01edf99740]:[DEBUG][main in Server Main] Server is running.
+[2020-06-12 17:31:14.720979]:[0x00007f01edf99740]:[DEBUG][handle_accept in Server] Incoming request from IP: 127.0.0.1
+[2020-06-12 17:31:14.722547]:[0x00007f01edf99740]:[DEBUG][handle_read in Session] Request Path: /snake
+[2020-06-12 17:31:14.723554]:[0x00007f01edf99740]:[DEBUG][handle_read in Session] Getting response for request to /snake
+[2020-06-12 17:31:14.725626]:[0x00007f01edf99740]:[DEBUG][handle_request in SnakeHandler] Response Code: 200
+[2020-06-12 17:31:14.726402]:[0x00007f01edf99740]:[DEBUG][handle_write in Session] Disconnected from IP: 127.0.0.1

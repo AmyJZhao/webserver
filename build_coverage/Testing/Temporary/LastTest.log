@@ -1,0 +1,929 @@
+Start testing: Apr 20 22:45 UTC
+----------------------------------------------------------
+1/34 Testing: RequestParserTest.SimpleRequest
+1/34 Test: RequestParserTest.SimpleRequest
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/request_parser_test" "--gtest_filter=RequestParserTest.SimpleRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests
+"RequestParserTest.SimpleRequest" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.SimpleRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.SimpleRequest
+[       OK ] RequestParserTest.SimpleRequest (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.SimpleRequest" end time: Apr 20 22:45 UTC
+"RequestParserTest.SimpleRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/34 Testing: RequestParserTest.LongerRequest
+2/34 Test: RequestParserTest.LongerRequest
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/request_parser_test" "--gtest_filter=RequestParserTest.LongerRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests
+"RequestParserTest.LongerRequest" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.LongerRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.LongerRequest
+[       OK ] RequestParserTest.LongerRequest (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.LongerRequest" end time: Apr 20 22:45 UTC
+"RequestParserTest.LongerRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/34 Testing: RequestParserTest.MissingGET
+3/34 Test: RequestParserTest.MissingGET
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/request_parser_test" "--gtest_filter=RequestParserTest.MissingGET" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests
+"RequestParserTest.MissingGET" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.MissingGET
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.MissingGET
+[       OK ] RequestParserTest.MissingGET (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.MissingGET" end time: Apr 20 22:45 UTC
+"RequestParserTest.MissingGET" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/34 Testing: RequestParserTest.ColonAfterGET
+4/34 Test: RequestParserTest.ColonAfterGET
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/request_parser_test" "--gtest_filter=RequestParserTest.ColonAfterGET" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests
+"RequestParserTest.ColonAfterGET" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.ColonAfterGET
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.ColonAfterGET
+[       OK ] RequestParserTest.ColonAfterGET (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.ColonAfterGET" end time: Apr 20 22:45 UTC
+"RequestParserTest.ColonAfterGET" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/34 Testing: RequestHandlerTest.Simple_Bad_Request
+5/34 Test: RequestHandlerTest.Simple_Bad_Request
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/request_handler_test" "--gtest_filter=RequestHandlerTest.Simple_Bad_Request" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests
+"RequestHandlerTest.Simple_Bad_Request" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestHandlerTest.Simple_Bad_Request
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestHandlerTest
+[ RUN      ] RequestHandlerTest.Simple_Bad_Request
+[       OK ] RequestHandlerTest.Simple_Bad_Request (0 ms)
+[----------] 1 test from RequestHandlerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestHandlerTest.Simple_Bad_Request" end time: Apr 20 22:45 UTC
+"RequestHandlerTest.Simple_Bad_Request" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/34 Testing: RequestHandlerTest.Simple_Good_Request
+6/34 Test: RequestHandlerTest.Simple_Good_Request
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/request_handler_test" "--gtest_filter=RequestHandlerTest.Simple_Good_Request" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests
+"RequestHandlerTest.Simple_Good_Request" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestHandlerTest.Simple_Good_Request
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestHandlerTest
+[ RUN      ] RequestHandlerTest.Simple_Good_Request
+[       OK ] RequestHandlerTest.Simple_Good_Request (0 ms)
+[----------] 1 test from RequestHandlerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestHandlerTest.Simple_Good_Request" end time: Apr 20 22:45 UTC
+"RequestHandlerTest.Simple_Good_Request" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/34 Testing: NginxConfigParserTest.SimpleConfig
+7/34 Test: NginxConfigParserTest.SimpleConfig
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.SimpleConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.SimpleConfig" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.SimpleConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.SimpleConfig
+[       OK ] NginxConfigParserTest.SimpleConfig (1 ms)
+[----------] 1 test from NginxConfigParserTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.SimpleConfig" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.SimpleConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/34 Testing: NginxConfigParserTest.HelloWorld
+8/34 Test: NginxConfigParserTest.HelloWorld
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.HelloWorld" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.HelloWorld" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.HelloWorld
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.HelloWorld
+[       OK ] NginxConfigParserTest.HelloWorld (0 ms)
+[----------] 1 test from NginxConfigParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.HelloWorld" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.HelloWorld" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/34 Testing: NginxConfigParserTest.EmptyFile
+9/34 Test: NginxConfigParserTest.EmptyFile
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.EmptyFile" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.EmptyFile" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.EmptyFile
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.EmptyFile
+Bad transition from TOKEN_TYPE_START to TOKEN_TYPE_EOF
+[       OK ] NginxConfigParserTest.EmptyFile (0 ms)
+[----------] 1 test from NginxConfigParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.EmptyFile" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.EmptyFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/34 Testing: NginxConfigParserTest.NonexistentFile
+10/34 Test: NginxConfigParserTest.NonexistentFile
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.NonexistentFile" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.NonexistentFile" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.NonexistentFile
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.NonexistentFile
+Failed to open config file: nonexistent_file
+[       OK ] NginxConfigParserTest.NonexistentFile (1 ms)
+[----------] 1 test from NginxConfigParserTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.NonexistentFile" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.NonexistentFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/34 Testing: NginxConfigParserTest.MissingSemicolon
+11/34 Test: NginxConfigParserTest.MissingSemicolon
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.MissingSemicolon" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.MissingSemicolon" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.MissingSemicolon
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.MissingSemicolon
+Bad transition from TOKEN_TYPE_NORMAL to TOKEN_TYPE_EOF
+[       OK ] NginxConfigParserTest.MissingSemicolon (0 ms)
+[----------] 1 test from NginxConfigParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.MissingSemicolon" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.MissingSemicolon" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/34 Testing: NginxConfigParserTest.IncompleteDirective
+12/34 Test: NginxConfigParserTest.IncompleteDirective
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.IncompleteDirective" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.IncompleteDirective" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.IncompleteDirective
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.IncompleteDirective
+Bad transition from TOKEN_TYPE_NORMAL to TOKEN_TYPE_STATEMENT_END
+[       OK ] NginxConfigParserTest.IncompleteDirective (0 ms)
+[----------] 1 test from NginxConfigParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.IncompleteDirective" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.IncompleteDirective" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/34 Testing: NginxConfigParserTest.CRLF
+13/34 Test: NginxConfigParserTest.CRLF
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.CRLF" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.CRLF" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.CRLF
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.CRLF
+[       OK ] NginxConfigParserTest.CRLF (0 ms)
+[----------] 1 test from NginxConfigParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.CRLF" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.CRLF" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/34 Testing: NginxConfigParserTest.SpacingIssues1
+14/34 Test: NginxConfigParserTest.SpacingIssues1
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.SpacingIssues1" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.SpacingIssues1" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.SpacingIssues1
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.SpacingIssues1
+Bad transition from TOKEN_TYPE_NORMAL to TOKEN_TYPE_STATEMENT_END
+[       OK ] NginxConfigParserTest.SpacingIssues1 (1 ms)
+[----------] 1 test from NginxConfigParserTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.SpacingIssues1" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.SpacingIssues1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/34 Testing: NginxConfigParserTest.SpacingIssues2
+15/34 Test: NginxConfigParserTest.SpacingIssues2
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.SpacingIssues2" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.SpacingIssues2" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.SpacingIssues2
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.SpacingIssues2
+[       OK ] NginxConfigParserTest.SpacingIssues2 (1 ms)
+[----------] 1 test from NginxConfigParserTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.SpacingIssues2" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.SpacingIssues2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/34 Testing: NginxConfigParserTest.MissingBracket1
+16/34 Test: NginxConfigParserTest.MissingBracket1
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.MissingBracket1" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.MissingBracket1" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.MissingBracket1
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.MissingBracket1
+Bad transition from TOKEN_TYPE_NORMAL to TOKEN_TYPE_STATEMENT_END
+[       OK ] NginxConfigParserTest.MissingBracket1 (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.MissingBracket1" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.MissingBracket1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/34 Testing: NginxConfigParserTest.MissingBracket2
+17/34 Test: NginxConfigParserTest.MissingBracket2
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.MissingBracket2" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.MissingBracket2" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.MissingBracket2
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.MissingBracket2
+Failed to open config file: missingbracket2_config
+[       OK ] NginxConfigParserTest.MissingBracket2 (1 ms)
+[----------] 1 test from NginxConfigParserTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.MissingBracket2" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.MissingBracket2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/34 Testing: NginxConfigParserTest.MissingBracket3
+18/34 Test: NginxConfigParserTest.MissingBracket3
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.MissingBracket3" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.MissingBracket3" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.MissingBracket3
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.MissingBracket3
+Bad transition from TOKEN_TYPE_NORMAL to TOKEN_TYPE_STATEMENT_END
+[       OK ] NginxConfigParserTest.MissingBracket3 (1 ms)
+[----------] 1 test from NginxConfigParserTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.MissingBracket3" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.MissingBracket3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/34 Testing: NginxConfigParserTest.MissingBracket4
+19/34 Test: NginxConfigParserTest.MissingBracket4
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.MissingBracket4" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.MissingBracket4" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.MissingBracket4
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.MissingBracket4
+Bad transition from TOKEN_TYPE_NORMAL to TOKEN_TYPE_END_BLOCK
+[       OK ] NginxConfigParserTest.MissingBracket4 (1 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.MissingBracket4" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.MissingBracket4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/34 Testing: NginxConfigParserTest.MissingBracket5
+20/34 Test: NginxConfigParserTest.MissingBracket5
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.MissingBracket5" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.MissingBracket5" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.MissingBracket5
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.MissingBracket5
+Bad transition from TOKEN_TYPE_END_BLOCK to TOKEN_TYPE_EOF
+[       OK ] NginxConfigParserTest.MissingBracket5 (1 ms)
+[----------] 1 test from NginxConfigParserTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.MissingBracket5" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.MissingBracket5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/34 Testing: NginxConfigParserTest.Comments
+21/34 Test: NginxConfigParserTest.Comments
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.Comments" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.Comments" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.Comments
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.Comments
+[       OK ] NginxConfigParserTest.Comments (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.Comments" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.Comments" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/34 Testing: NginxConfigParserTest.NestedBlocks
+22/34 Test: NginxConfigParserTest.NestedBlocks
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.NestedBlocks" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.NestedBlocks" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.NestedBlocks
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.NestedBlocks
+[       OK ] NginxConfigParserTest.NestedBlocks (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.NestedBlocks" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.NestedBlocks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/34 Testing: NginxConfigParserTest.NestedBlocks2
+23/34 Test: NginxConfigParserTest.NestedBlocks2
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.NestedBlocks2" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.NestedBlocks2" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.NestedBlocks2
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.NestedBlocks2
+[       OK ] NginxConfigParserTest.NestedBlocks2 (1 ms)
+[----------] 1 test from NginxConfigParserTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.NestedBlocks2" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.NestedBlocks2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/34 Testing: NginxConfigParserTest.MissingQuote1
+24/34 Test: NginxConfigParserTest.MissingQuote1
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.MissingQuote1" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.MissingQuote1" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.MissingQuote1
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.MissingQuote1
+Bad transition from TOKEN_TYPE_NORMAL to TOKEN_TYPE_ERROR
+[       OK ] NginxConfigParserTest.MissingQuote1 (1 ms)
+[----------] 1 test from NginxConfigParserTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.MissingQuote1" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.MissingQuote1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/34 Testing: NginxConfigParserTest.MissingQuote2
+25/34 Test: NginxConfigParserTest.MissingQuote2
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.MissingQuote2" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_parser_cases
+"NginxConfigParserTest.MissingQuote2" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.MissingQuote2
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.MissingQuote2
+Bad transition from TOKEN_TYPE_NORMAL to TOKEN_TYPE_ERROR
+[       OK ] NginxConfigParserTest.MissingQuote2 (3 ms)
+[----------] 1 test from NginxConfigParserTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.MissingQuote2" end time: Apr 20 22:45 UTC
+"NginxConfigParserTest.MissingQuote2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/34 Testing: ConfigPortNumberTest.PortConfig
+26/34 Test: ConfigPortNumberTest.PortConfig
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_port_number_test" "--gtest_filter=ConfigPortNumberTest.PortConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_port_number_cases
+"ConfigPortNumberTest.PortConfig" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ConfigPortNumberTest.PortConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigPortNumberTest
+[ RUN      ] ConfigPortNumberTest.PortConfig
+[       OK ] ConfigPortNumberTest.PortConfig (2 ms)
+[----------] 1 test from ConfigPortNumberTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigPortNumberTest.PortConfig" end time: Apr 20 22:45 UTC
+"ConfigPortNumberTest.PortConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/34 Testing: ConfigPortNumberTest.PortConfig2
+27/34 Test: ConfigPortNumberTest.PortConfig2
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_port_number_test" "--gtest_filter=ConfigPortNumberTest.PortConfig2" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_port_number_cases
+"ConfigPortNumberTest.PortConfig2" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ConfigPortNumberTest.PortConfig2
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigPortNumberTest
+[ RUN      ] ConfigPortNumberTest.PortConfig2
+[       OK ] ConfigPortNumberTest.PortConfig2 (1 ms)
+[----------] 1 test from ConfigPortNumberTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigPortNumberTest.PortConfig2" end time: Apr 20 22:45 UTC
+"ConfigPortNumberTest.PortConfig2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/34 Testing: ConfigPortNumberTest.PortConfig3
+28/34 Test: ConfigPortNumberTest.PortConfig3
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/config_port_number_test" "--gtest_filter=ConfigPortNumberTest.PortConfig3" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests/unit/config_port_number_cases
+"ConfigPortNumberTest.PortConfig3" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ConfigPortNumberTest.PortConfig3
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigPortNumberTest
+[ RUN      ] ConfigPortNumberTest.PortConfig3
+[       OK ] ConfigPortNumberTest.PortConfig3 (3 ms)
+[----------] 1 test from ConfigPortNumberTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigPortNumberTest.PortConfig3" end time: Apr 20 22:45 UTC
+"ConfigPortNumberTest.PortConfig3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/34 Testing: SessionTest.ConstructorTest
+29/34 Test: SessionTest.ConstructorTest
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/session_test" "--gtest_filter=SessionTest.ConstructorTest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests
+"SessionTest.ConstructorTest" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = SessionTest.ConstructorTest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from SessionTest
+[ RUN      ] SessionTest.ConstructorTest
+[       OK ] SessionTest.ConstructorTest (0 ms)
+[----------] 1 test from SessionTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SessionTest.ConstructorTest" end time: Apr 20 22:45 UTC
+"SessionTest.ConstructorTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/34 Testing: SessionTest.GoodRequestTest
+30/34 Test: SessionTest.GoodRequestTest
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/session_test" "--gtest_filter=SessionTest.GoodRequestTest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests
+"SessionTest.GoodRequestTest" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = SessionTest.GoodRequestTest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from SessionTest
+[ RUN      ] SessionTest.GoodRequestTest
+[       OK ] SessionTest.GoodRequestTest (1 ms)
+[----------] 1 test from SessionTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SessionTest.GoodRequestTest" end time: Apr 20 22:45 UTC
+"SessionTest.GoodRequestTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/34 Testing: SessionTest.ReadBadRequestTest
+31/34 Test: SessionTest.ReadBadRequestTest
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/session_test" "--gtest_filter=SessionTest.ReadBadRequestTest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests
+"SessionTest.ReadBadRequestTest" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = SessionTest.ReadBadRequestTest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from SessionTest
+[ RUN      ] SessionTest.ReadBadRequestTest
+[       OK ] SessionTest.ReadBadRequestTest (1 ms)
+[----------] 1 test from SessionTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SessionTest.ReadBadRequestTest" end time: Apr 20 22:45 UTC
+"SessionTest.ReadBadRequestTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/34 Testing: ServerTest.ConstructorTest
+32/34 Test: ServerTest.ConstructorTest
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/server_test" "--gtest_filter=ServerTest.ConstructorTest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests
+"ServerTest.ConstructorTest" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ServerTest.ConstructorTest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ServerTest
+[ RUN      ] ServerTest.ConstructorTest
+[       OK ] ServerTest.ConstructorTest (0 ms)
+[----------] 1 test from ServerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"ServerTest.ConstructorTest" end time: Apr 20 22:45 UTC
+"ServerTest.ConstructorTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/34 Testing: ServerTest.HandleAccept
+33/34 Test: ServerTest.HandleAccept
+Command: "/usr/src/projects/aaa-p2/build_coverage/bin/server_test" "--gtest_filter=ServerTest.HandleAccept" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/aaa-p2/tests
+"ServerTest.HandleAccept" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ServerTest.HandleAccept
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ServerTest
+[ RUN      ] ServerTest.HandleAccept
+[       OK ] ServerTest.HandleAccept (0 ms)
+[----------] 1 test from ServerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"ServerTest.HandleAccept" end time: Apr 20 22:45 UTC
+"ServerTest.HandleAccept" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/34 Testing: integration_test
+34/34 Test: integration_test
+Command: "/usr/src/projects/aaa-p2/tests/integration/server_test.sh" "/usr/src/projects/aaa-p2/build_coverage/bin/server" "/usr/src/projects/aaa-p2/tests/integration/test_config"
+Directory: /usr/src/projects/aaa-p2/tests/integration
+"integration_test" start time: Apr 20 22:45 UTC
+Output:
+----------------------------------------------------------
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    78    0    78    0     0     64      0 --:--:--  0:00:01 --:--:--    64100    78    0    78    0     0     31      0 --:--:--  0:00:02 --:--:--    31100    78    0    78    0     0     25      0 --:--:--  0:00:03 --:--:--    25
+curl: (28) Operation timed out after 3001 milliseconds with 78 bytes received
+==> Good response test: SUCCESS
+Kill signal (15) received.
+Usage: async_tcp_echo_server <path_to_config_file>
+==> Bad call to server test: SUCCESS
+<end of output>
+Test time =   3.07 sec
+----------------------------------------------------------
+Test Passed.
+"integration_test" end time: Apr 20 22:45 UTC
+"integration_test" time elapsed: 00:00:03
+----------------------------------------------------------
+
+End testing: Apr 20 22:45 UTC

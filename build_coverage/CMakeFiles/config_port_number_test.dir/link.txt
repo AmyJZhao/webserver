@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   -g --coverage CMakeFiles/config_port_number_test.dir/tests/unit/config_port_number_test.cc.o  -o bin/config_port_number_test libconfig_parser.a googletest/googlemock/gtest/libgtest_main.a googletest/googlemock/gtest/libgtest.a -lpthread 

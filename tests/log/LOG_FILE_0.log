@@ -1,0 +1,9 @@
+[2020-06-12 17:31:13.053292]:[0x00007f361765d740]:[DEBUG][main in Server_Main] Logger created.
+[2020-06-12 17:31:13.069486]:[0x00007f361765d740]:[DEBUG][main in Server Main] Server has parsed the handlers.
+[2020-06-12 17:31:13.070333]:[0x00007f361765d740]:[DEBUG][main in Server Main] Server has been successfully initialized.
+[2020-06-12 17:31:13.070730]:[0x00007f361765d740]:[DEBUG][main in Server Main] Server is running.
+[2020-06-12 17:31:13.600438]:[0x00007f361765d740]:[DEBUG][handle_accept in Server] Incoming request from IP: 127.0.0.1
+[2020-06-12 17:31:13.602107]:[0x00007f361765d740]:[DEBUG][handle_read in Session] Request Path: /echo
+[2020-06-12 17:31:13.602902]:[0x00007f361765d740]:[DEBUG][handle_read in Session] Getting response for request to /echo
+[2020-06-12 17:31:13.603671]:[0x00007f361765d740]:[DEBUG][handle_request in EchoHandler] Response Code: 200
+[2020-06-12 17:31:13.604647]:[0x00007f361765d740]:[DEBUG][handle_write in Session] Disconnected from IP: 127.0.0.1

@@ -1,0 +1,16 @@
+listen 8000;
+
+# Echo Handler
+location "/echo" EchoHandler {
+}
+
+# Static Handler
+location "/static1" StaticHandler {
+  root /files;
+}
+
+# Proxy Handler
+location "/slow" ProxyHandler {
+  host "127.0.0.1";
+  port 8001;
+}

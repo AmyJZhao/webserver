@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   -g --coverage CMakeFiles/server.dir/src/server_main.cc.o  -o bin/server /usr/lib/x86_64-linux-gnu/libboost_system.a libsession_lib.a libserver_lib.a libconfig_parser.a librequest_handler_lib.a librequest_parser_lib.a 
